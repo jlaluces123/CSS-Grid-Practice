@@ -6,10 +6,15 @@
 
 .box1 {
   background-color: lightcoral;
+  /* 12:30 mark: ROW STRETCH EXAMPLE */
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .box2 {
   background-color: lightblue;
+  /* 12:30 mark: ROW STRETCH EXAMPLE */
+  grid-row: 1/3;
 }
 
 .box3 {
