@@ -14,4 +14,26 @@
 
 .box3 {
   background-color: lightgreen;
+  /* 11:00 mark: COLUMN STRETCH EXAMPLE */
+  /* grid-column-start: 1; */
+  /* grid-column-end: 3; */
+
+  /* abbreviation */
+  /* grid-column: 1/3; */
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* grid-template-columns: 300px 300px; this will create two columns and push box3 to the next row since there isn't a third column */
+  /* grid-template-columns: 300px 300px 300px; will create three columns all in one row */
+  /* grid-template-columns: 300px 300px 50%; makes three columns in one row and makes last one 50% width of container */
+
+
+
+  /* Fractions example */
+  /* grid-template-columns: 300px 300px 1fr; this will make the third element stretch the remainder of the available width */
+  /* grid-template-columns: 1fr 1fr 1fr;  all same dimensions, spans the whole available width */
 }
